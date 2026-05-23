@@ -1,0 +1,50 @@
+---
+description: Design system and UI generation rules
+alwaysApply: true
+---
+
+# Design System
+
+Use this context when generating UI.
+
+## Visual principles
+
+- Minimal visual noise
+- Clear hierarchy
+- Strong spacing system
+- High readability
+- Calm, product-like interface
+- No decorative animation without UX meaning
+
+## Spacing
+
+Use spacing scale:
+
+- 4
+- 8
+- 12
+- 16
+- 24
+- 32
+- 48
+- 64
+
+## Components
+
+- Prefer existing components from `src/components/ui`
+- Do not duplicate components
+- Extract repeated UI into reusable components
+- Use composition over large monolithic components
+
+## Motion
+
+- Use Framer Motion only for state changes, page transitions and interaction feedback
+- Do not animate every element
+- Motion should clarify state, not decorate the page
+
+## UX
+
+- Every screen should have a clear primary action
+- Empty states must explain what happened and what to do next
+- Loading states should be explicit
+- Forms must show validation and recovery paths

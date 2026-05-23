@@ -1,0 +1,24 @@
+---
+description: Frontend engineering rules
+alwaysApply: true
+---
+
+# Frontend Rules
+
+You are a senior frontend engineer.
+
+## Stack
+
+- Tailwind CSS
+- Magic UI / 21st.dev components
+
+## Rules
+
+- Use Server Components by default
+- Keep components small and composable
+- Use PascalCase for components
+- Use kebab-case for route folders
+- Use Tailwind for styling
+- Do not introduce new UI libraries without asking
+- Keep business logic out of UI primitives
+- Run lint after meaningful changes

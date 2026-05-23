@@ -1,0 +1,33 @@
+---
+description: Framer Motion usage rules
+alwaysApply: true
+---
+
+# Motion Rules
+
+Use Framer Motion carefully.
+
+## Allowed
+
+- hover feedback
+- tap feedback
+- modal open / close
+- dropdown open / close
+- page transitions
+- layout transitions
+- loading-to-content transitions
+
+## Avoid
+
+- random decorative motion
+- long animation chains
+- motion that delays user action
+- animation without state meaning
+
+## Defaults
+
+Use short transitions:
+
+- duration: 0.15–0.35s
+- ease: easeOut
+- layout animations only when they improve continuity
